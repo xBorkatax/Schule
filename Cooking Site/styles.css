@@ -1,0 +1,158 @@
+/* CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    word-wrap: break-word !important;
+    background-color: #f4f4f4;
+}
+
+.pageContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "#logo #title";
+    grid-template-columns: 400px 700px 400px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+}
+
+#logo img {
+    display: block;
+    margin-left: 100px;
+    width: 50%;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+}
+
+nav {
+    padding: 0;
+    margin: auto;
+    background-color: #333;
+    font-size: 25px;
+    color: #fff;
+}
+
+nav .dropdown a {
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+nav ul li a.ppp{
+    margin-left: 950px;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #f4f4f4;
+    padding: 0px 25px 0px 25px;
+
+}
+
+nav ul li:hover ul li {
+    display: block;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-left: 0;
+
+
+}
+
+nav ul li:hover ul li a {
+    color: #333;
+    text-align: center;
+}
+
+div .border {
+    /*border: 1px solid black;*/
+
+}
+
+h2 {
+    color: #333;
+    font-size: 35px;
+    text-align: center;
+}
+
+div .containerNadenq {
+    display: flex;
+    vertical-align: center;
+
+}
+
+div .containerNadenq img {
+    border: 8px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+    margin-left: 250px;
+}
+
+div .containerNadenq .sustavki {
+    padding-left: 100px;
+    display: inline-block;
+    margin-left: 100px;
+}
+div.containerNadenq h4{
+    margin-top: 50px;
+
+}
+
+div .containerNadenq .sustavki ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+/*Специалитети стилизация*/
+div .spez1 {
+    display: flex;
+    vertical-align: center;
+}
+
+div .spez1 img {
+    border: 8px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+    margin-left: 250px;
+}
+
+div .spez1 .sustavki {
+    padding-left: 100px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+div .spez1 .sustavki ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+p {
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}

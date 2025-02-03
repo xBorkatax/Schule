@@ -1,0 +1,26 @@
+h3, h2 {
+    color: #d10848;
+    text-align: center;
+}
+
+.imageCherry {
+    display: flex;
+    margin: auto;
+}
+
+hr {
+    height: 2px;
+    width: 500px;
+    background-color: #d10848;
+}
+
+.imageMapandFruit{
+    display: flex;
+    margin: auto;
+    width: 20%;
+    border: 2px solid #d10848;
+}
+
+.products {
+    width: 20%;
+}
